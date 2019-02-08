@@ -17,4 +17,4 @@ properties:
   verified_until:
     description: It represents how long the current state will still be valid if temporary.
     type: string
-    format: date
+    format: datetime
