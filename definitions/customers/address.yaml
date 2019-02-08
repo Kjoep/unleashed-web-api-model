@@ -19,5 +19,6 @@ properties:
     type: string
   country:
     type: string
-    description: ISO2 country code
-    pattern: ^[a-z]{2}$
+    description: ISO2 country code, in lowercase.  For mobile-vikings, uppercase is used.
+    pattern: ^[a-zA-Z]{2}$
+
